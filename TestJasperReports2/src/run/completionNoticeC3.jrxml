@@ -475,7 +475,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement verticalAlignment="Top">
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O33}]]></textFieldExpression>
@@ -491,7 +491,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Right" verticalAlignment="Top">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O34}]]></textFieldExpression>
@@ -506,7 +506,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement verticalAlignment="Top">
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O40}]]></textFieldExpression>
@@ -519,7 +519,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Right" verticalAlignment="Top">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O41}]]></textFieldExpression>
@@ -532,7 +532,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement verticalAlignment="Top">
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O35}]]></textFieldExpression>
@@ -547,7 +547,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Right" verticalAlignment="Top">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O36}]]></textFieldExpression>
@@ -562,7 +562,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement verticalAlignment="Top">
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O42}]]></textFieldExpression>
@@ -578,7 +578,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Right" verticalAlignment="Top">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O43}]]></textFieldExpression>
@@ -593,7 +593,7 @@
 					<leftPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Right">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O44}]]></textFieldExpression>
@@ -606,7 +606,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[①お支払金額合計]]></text>
@@ -622,7 +622,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[②控除額合計]]></text>
@@ -635,7 +635,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[③差引お支払金額（①-②）]]></text>
@@ -649,7 +649,7 @@
 					<pen lineWidth="0.5" lineStyle="Dotted"/>
 					<leftPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Right">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O45}]]></textFieldExpression>
@@ -664,7 +664,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[④遅延利息]]></text>
@@ -679,7 +679,7 @@
 					<leftPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Right">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O46}]]></textFieldExpression>
@@ -694,7 +694,7 @@
 					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted" lineColor="#000000"/>
 				</box>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[⑤今回お振込金額（③+④）]]></text>
@@ -710,7 +710,7 @@
 					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textElement textAlignment="Right">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O47}]]></textFieldExpression>
@@ -723,6 +723,7 @@
 					<bottomPen lineWidth="0.0"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
+				<textElement verticalAlignment="Middle"/>
 				<text><![CDATA[]]></text>
 			</staticText>
 			<textField>
@@ -735,7 +736,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Right">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O39}]]></textFieldExpression>
@@ -935,7 +936,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[年金証書番号]]></text>
@@ -950,7 +951,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[年金受取人]]></text>
@@ -965,7 +966,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[被保険者]]></text>
@@ -978,7 +979,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[保険種類]]></text>
@@ -991,7 +992,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[年金支払開始日]]></text>
@@ -1004,7 +1005,7 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[年金支払年数]]></text>
@@ -1019,7 +1020,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O9}]]></textFieldExpression>
@@ -1034,7 +1035,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O10}]]></textFieldExpression>
@@ -1049,7 +1050,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O11}]]></textFieldExpression>
@@ -1064,7 +1065,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O12}]]></textFieldExpression>
@@ -1080,7 +1081,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O13}]]></textFieldExpression>
@@ -1095,7 +1096,7 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O14}]]></textFieldExpression>
@@ -1111,7 +1112,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[年金種類-変額]]></text>
@@ -1126,7 +1127,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[支払(保証)期間-変額]]></text>
@@ -1141,7 +1142,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[年金種類-定額]]></text>
@@ -1154,7 +1155,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[支払(保証)期間-定額]]></text>
@@ -1169,7 +1170,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O21}]]></textFieldExpression>
@@ -1182,7 +1183,7 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[分割回数(年間の受取回数)]]></text>
@@ -1195,7 +1196,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O15}]]></textFieldExpression>
@@ -1210,7 +1211,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O17}]]></textFieldExpression>
@@ -1225,7 +1226,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O18}]]></textFieldExpression>
@@ -1240,7 +1241,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O20}]]></textFieldExpression>
@@ -1255,7 +1256,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O22}]]></textFieldExpression>
@@ -1268,7 +1269,7 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O23}]]></textFieldExpression>
@@ -1568,7 +1569,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement verticalAlignment="Top">
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O37}]]></textFieldExpression>
@@ -1583,7 +1584,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Right" verticalAlignment="Top">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O38}]]></textFieldExpression>
@@ -1599,7 +1600,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Right" verticalAlignment="Top">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[]]></text>
@@ -1614,7 +1615,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement verticalAlignment="Top">
+				<textElement verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[]]></text>

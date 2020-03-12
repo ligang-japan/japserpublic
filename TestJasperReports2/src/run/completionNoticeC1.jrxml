@@ -783,6 +783,7 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
+				<textElement verticalAlignment="Middle"/>
 				<text><![CDATA[]]></text>
 			</staticText>
 			<textField>
@@ -1082,7 +1083,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O9}]]></textFieldExpression>
@@ -1097,7 +1098,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O10}]]></textFieldExpression>
@@ -1112,7 +1113,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O11}]]></textFieldExpression>
@@ -1127,7 +1128,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O12}]]></textFieldExpression>
@@ -1143,7 +1144,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O13}]]></textFieldExpression>
@@ -1158,7 +1159,7 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O14}]]></textFieldExpression>
@@ -1258,7 +1259,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O15}]]></textFieldExpression>
@@ -1273,7 +1274,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O17}]]></textFieldExpression>
@@ -1288,7 +1289,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O18}]]></textFieldExpression>
@@ -1303,7 +1304,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O20}]]></textFieldExpression>
@@ -1318,7 +1319,7 @@
 					<bottomPen lineWidth="0.5" lineStyle="Dotted"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O22}]]></textFieldExpression>
@@ -1331,7 +1332,7 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Left">
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{O23}]]></textFieldExpression>
@@ -1659,7 +1660,7 @@
 				<box padding="1">
 					<pen lineWidth="0.5" lineStyle="Dotted"/>
 				</box>
-				<textElement textAlignment="Right" verticalAlignment="Top">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="IPAGothic" size="9"/>
 				</textElement>
 				<text><![CDATA[]]></text>
