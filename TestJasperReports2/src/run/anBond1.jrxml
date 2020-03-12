@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.9.0.final using JasperReports Library version 6.9.0-cb8f9004be492ccc537180b49c026951f4220bf3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="anBond" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="1291613f-b609-4833-97f7-e5c0dbcdde74">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="VA Printing"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT [O1]
+      ,[O2]
+      ,[O3]
+      ,[O4]
+      ,[O5]
+      ,[O6]
+      ,[O7]
+      ,[O8]
+      ,[O9]
+      ,[O10]
+      ,[O11]
+      ,[O12]
+      ,[O14]
+      ,[O15]
+      ,[O16]
+      ,[O17]
+      ,[O18]
+      ,[O19]
+      ,[O20]
+      ,[O21]
+      ,[O22]
+      ,[O23]
+      ,[O24]
+      ,[O25]
+      ,[O26]
+      ,[O27]
+      ,[O28]
+      ,[O29]
+      ,[O30]
+      ,[O31]
+      ,[O32]
+      ,[O33]
+      ,[O34]
+      ,[O35]
+      ,[O36]
+      ,[O37]
+      ,[O38]
+      ,[O39]
+      ,[O40]
+      ,[O41]
+      ,[O42]
+      ,[O43]
+      ,[O44]
+      ,[O45]
+      ,[O46]
+      ,[O47]
+      ,[O48]
+      ,[O49]
+      ,[O50]
+      ,[O51]
+      ,[O52]
+      ,[O53]
+      ,[O54]
+      ,[O55]
+      ,[O56]
+      ,[O57]
+      ,[O58]
+      ,[O59]
+      ,[O60]
+      ,[O61]
+      ,[O62]
+      ,[O63]
+      ,[O64]
+      ,[O65]
+      ,[O66]
+      ,[O67]
+      ,[O68]
+      ,[O69_1]
+      ,[O69_2]
+      ,[O70_1]
+      ,[O70_2]
+      ,[O71_1]
+      ,[O71_2]
+      ,[O72]
+      ,[O73]
+      ,[O74]
+      ,[O75]
+      ,[O76]
+      ,[O77]
+      ,[O78]
+      ,[O79]
+      ,[O80]
+      ,[O81]
+  FROM [dbo].[V_PRINTDATA_BOND] WHERE C1='Y' AND C2='Y']]>
+	</queryString>
+	<field name="O1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O1"/>
+	</field>
+	<field name="O2" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O2"/>
+	</field>
+	<field name="O3" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O3"/>
+	</field>
+	<field name="O4" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O4"/>
+	</field>
+	<field name="O5" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O5"/>
+	</field>
+	<field name="O6" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O6"/>
+	</field>
+	<field name="O7" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O7"/>
+	</field>
+	<field name="O8" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O8"/>
+	</field>
+	<field name="O9" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O9"/>
+	</field>
+	<field name="O10" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O10"/>
+	</field>
+	<field name="O11" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O11"/>
+	</field>
+	<field name="O12" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O12"/>
+	</field>
+	<field name="O14" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O14"/>
+	</field>
+	<field name="O15" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O15"/>
+	</field>
+	<field name="O16" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O16"/>
+	</field>
+	<field name="O17" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O17"/>
+	</field>
+	<field name="O18" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O18"/>
+	</field>
+	<field name="O19" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O19"/>
+	</field>
+	<field name="O20" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O20"/>
+	</field>
+	<field name="O21" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O21"/>
+	</field>
+	<field name="O22" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O22"/>
+	</field>
+	<field name="O23" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O23"/>
+	</field>
+	<field name="O24" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O24"/>
+	</field>
+	<field name="O25" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O25"/>
+	</field>
+	<field name="O26" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O26"/>
+	</field>
+	<field name="O27" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O27"/>
+	</field>
+	<field name="O28" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O28"/>
+	</field>
+	<field name="O29" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O29"/>
+	</field>
+	<field name="O30" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O30"/>
+	</field>
+	<field name="O31" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O31"/>
+	</field>
+	<field name="O32" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O32"/>
+	</field>
+	<field name="O33" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O33"/>
+	</field>
+	<field name="O34" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O34"/>
+	</field>
+	<field name="O35" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O35"/>
+	</field>
+	<field name="O36" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O36"/>
+	</field>
+	<field name="O37" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O37"/>
+	</field>
+	<field name="O38" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O38"/>
+	</field>
+	<field name="O39" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O39"/>
+	</field>
+	<field name="O40" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O40"/>
+	</field>
+	<field name="O41" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O41"/>
+	</field>
+	<field name="O42" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O42"/>
+	</field>
+	<field name="O43" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O43"/>
+	</field>
+	<field name="O44" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O44"/>
+	</field>
+	<field name="O45" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O45"/>
+	</field>
+	<field name="O46" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O46"/>
+	</field>
+	<field name="O47" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O47"/>
+	</field>
+	<field name="O48" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O48"/>
+	</field>
+	<field name="O49" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O49"/>
+	</field>
+	<field name="O50" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O50"/>
+	</field>
+	<field name="O51" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O51"/>
+	</field>
+	<field name="O52" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O52"/>
+	</field>
+	<field name="O53" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O53"/>
+	</field>
+	<field name="O54" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O54"/>
+	</field>
+	<field name="O55" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O55"/>
+	</field>
+	<field name="O56" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O56"/>
+	</field>
+	<field name="O57" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O57"/>
+	</field>
+	<field name="O58" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O58"/>
+	</field>
+	<field name="O59" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O59"/>
+	</field>
+	<field name="O60" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O60"/>
+	</field>
+	<field name="O61" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O61"/>
+	</field>
+	<field name="O62" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O62"/>
+	</field>
+	<field name="O63" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O63"/>
+	</field>
+	<field name="O64" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O64"/>
+	</field>
+	<field name="O65" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O65"/>
+	</field>
+	<field name="O66" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O66"/>
+	</field>
+	<field name="O67" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O67"/>
+	</field>
+	<field name="O68" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O68"/>
+	</field>
+	<field name="O69_1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O69_1"/>
+	</field>
+	<field name="O69_2" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O69_2"/>
+	</field>
+	<field name="O70_1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O70_1"/>
+	</field>
+	<field name="O70_2" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O70_2"/>
+	</field>
+	<field name="O71_1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O71_1"/>
+	</field>
+	<field name="O71_2" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O71_2"/>
+	</field>
+	<field name="O72" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O72"/>
+	</field>
+	<field name="O73" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O73"/>
+	</field>
+	<field name="O74" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O74"/>
+	</field>
+	<field name="O75" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O75"/>
+	</field>
+	<field name="O76" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O76"/>
+	</field>
+	<field name="O77" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O77"/>
+	</field>
+	<field name="O78" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O78"/>
+	</field>
+	<field name="O79" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O79"/>
+	</field>
+	<field name="O80" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O80"/>
+	</field>
+	<field name="O81" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="O81"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="842" splitType="Stretch">
+			<rectangle>
+				<reportElement x="20" y="22" width="555" height="802" uuid="44faaf58-f4b6-486c-99f1-f2bb236aef61">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<textField>
+				<reportElement x="34" y="25" width="48" height="10" uuid="8dc19e39-d9d2-441a-95e2-a9b6404098bc">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="170" y="25" width="35" height="10" uuid="d83fccc9-37ca-4e0b-8d33-19e4c2695bcc">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="25" width="242" height="10" uuid="99445e06-0538-43fc-8f35-2d566fb9df31">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="374" y="38" width="150" height="22" uuid="b09fbddd-21ed-4549-979c-f87e5cc37c14">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="374" y="85" width="35" height="10" uuid="78a93d80-4922-45b9-af89-a71777d873a4">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O24}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="374" y="97" width="196" height="10" uuid="c577992f-fd97-4ecb-b6d4-25033337749b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O25}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="120" width="34" height="10" uuid="6c59c0a5-4026-40c9-9b85-4aeb3c2fd61f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O26}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="133" width="84" height="10" uuid="376f75be-c4d5-4cb6-8221-2eb09233bfcd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O27}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="469" y="133" width="34" height="10" uuid="b0405c7c-46c6-4e0d-a49a-0b71ba6b05f8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O29}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="519" y="133" width="34" height="10" uuid="647608b8-d433-4b66-9acb-6505e7161343">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O31}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="120" width="34" height="10" uuid="becf050a-d84e-4bf9-81e7-fc98f6a1e388">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O28}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="519" y="120" width="34" height="10" uuid="69e10db7-589e-42f9-a4c3-8e511cec7b12">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O30}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="156" width="64" height="10" uuid="50d00f44-9299-45eb-9b2c-089a1e682373">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O60}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="377" y="168" width="196" height="10" uuid="95023a86-79d6-4458-bcba-957cd3e6c399">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O61}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="187" width="34" height="10" uuid="ce029926-a35e-4f87-bc74-f5052fc87ec2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O62}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="200" width="84" height="10" uuid="52a48c74-b4e3-4eed-9423-125fde2d9ce1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O63}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="519" y="200" width="34" height="10" uuid="e4211763-efeb-48fe-bc71-d4a4ceccd26f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O65}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="519" y="187" width="34" height="10" uuid="5b9d4c2b-b39f-4f77-969e-80ff9e26312e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O64}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="374" y="260" width="179" height="10" uuid="233afaf4-af5d-4a75-b4e4-131c84a0beac">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="90" width="80" height="10" uuid="2d906be4-e9e3-4556-8605-d318e1a44809">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="100" width="242" height="10" uuid="cbf40ca2-a701-4c2f-9e8c-c179dfb344d0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="112" width="242" height="10" uuid="40b8efcd-be13-42c3-acd8-58c96a6ea393">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="123" width="242" height="10" uuid="63381f33-0066-4a8d-89e7-095e28496b55">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="136" width="242" height="10" uuid="939c15ba-52db-485d-ba2c-a0fa04d47d45">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="150" width="226" height="10" uuid="b28bd0df-ede3-482f-8de8-c889bc0fe3b6">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O12}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="20" y="283" width="555" height="1" uuid="1507a3b5-a0f6-46db-9645-c6a1c1609d00">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="53" y="291" width="60" height="10" uuid="7262f45c-dc70-43b1-a6ac-217f61e0c179">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O14}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="53" y="304" width="104" height="10" uuid="e01da4ab-5287-4d87-89b2-6b314c88c5ea">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O15}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="291" width="60" height="10" uuid="4a45de14-efd9-42f9-9f49-59d16e82ebed">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O16}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="303" width="104" height="10" uuid="dda9a156-8c90-42f4-9845-b2b7b7606a6d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O17}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="290" width="74" height="10" uuid="56c7100b-485e-4488-9fc3-eca3aa1c85b9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O80}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="302" width="76" height="10" uuid="ad4dc7d5-adaa-4fa7-a0a0-fe1f6743f95e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O81}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="21" y="321" width="555" height="1" uuid="16313f47-a079-435c-8e10-286526d12a46">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="20" y="387" width="555" height="1" uuid="fac628c9-1c8c-410a-9c11-bcabea4e3bcf">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="53" y="329" width="40" height="10" uuid="6a4bdc85-c760-4e21-86f5-1d4726b3d420">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O18}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="53" y="341" width="262" height="10" uuid="247d0124-a069-47b6-8e19-23579359e92a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="328" y="329" width="56" height="10" uuid="2d75b1a0-f692-45d3-a7bb-746f7c6db36a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O22}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="328" y="341" width="226" height="10" uuid="8c86d2d0-66a3-4695-a45c-c59a0357b175">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O23}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="53" y="358" width="34" height="10" uuid="8735706b-6272-4df5-9eaf-caed8bddbf4c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O62}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="53" y="371" width="76" height="10" uuid="b83b9b9b-a119-4930-b4fa-9a01afe26129">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O63}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="20" y="406" width="555" height="1" uuid="386f4499-11fe-4610-87c1-b2ae009cbcdd">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="51" y="392" width="88" height="12" uuid="5112709f-7692-4304-9dda-a4490a6711cc">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<text><![CDATA[【年金の給付内容】]]></text>
+			</staticText>
+			<line>
+				<reportElement x="20" y="567" width="555" height="1" uuid="9d240975-ea12-4141-b3da-760fd07597d4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="38" y="575" width="531" height="10" uuid="53566e31-6900-4add-9343-b05549f5db93">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O66}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="39" y="589" width="502" height="10" uuid="eec549b1-a404-4c6e-b8a6-6e6843bf6d36">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O70_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="38" y="601" width="502" height="10" uuid="845db902-fdca-466f-a6ca-dcb3fb77988b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O70_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="38" y="615" width="502" height="10" uuid="d1040cb5-fec9-41ae-a258-7c79a9dde5ec">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O71_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="38" y="627" width="502" height="10" uuid="7f1460ef-8cfb-4e55-860c-3480368cc773">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O71_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="653" width="155" height="10" uuid="0b12ea30-0c68-4bd9-b75b-9803527e23e3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O72}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="251" y="653" width="100" height="10" uuid="125643c7-dd02-4467-81b8-dc063547172c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O74}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="671" width="85" height="10" uuid="f20eb998-390d-4f4f-a3f3-cd67df7122ac">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O73}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="251" y="671" width="85" height="10" uuid="1b86e5ec-5dc1-4923-9e5e-e09af949fd23">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O75}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="251" y="693" width="100" height="10" uuid="06018f50-6b64-44ca-9dd9-bd76d8484fdf">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O78}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="693" width="155" height="10" uuid="15fd1b7f-3c73-4c8e-9f1a-fca2d295a172">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O76}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="711" width="85" height="10" uuid="ccfaf01c-ea30-4601-8bbf-61e7b22e03fb">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O77}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="251" y="711" width="85" height="10" uuid="e048087b-99a5-4c3a-833b-8e796b8023d8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O79}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="53" y="413" width="76" height="10" uuid="e4a16631-48b9-437b-9c54-05e26cae3ef9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O33}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="413" width="50" height="10" uuid="3a42a5e4-7de7-44a2-8cd3-5af3ae10a6cf">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O35}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="328" y="413" width="50" height="10" uuid="1562eb92-e7d4-4c30-851b-bacc5c30b9a0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O37}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="413" width="50" height="10" uuid="51f42d68-8409-4e4b-9320-c8bb0c1b8a3d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O39}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="53" y="426" width="180" height="10" uuid="5dcf716c-f65c-45e7-8832-d8f1dc84ae39">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O34}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="426" width="50" height="10" uuid="20c8a815-77a5-4230-95cf-f6e1ec8f4e57">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O36}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="328" y="426" width="50" height="10" uuid="b8a934e6-5af2-4b5f-b5a4-287fb7a09697">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O38}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="426" width="50" height="10" uuid="1de381c8-6959-494b-b0b3-768de40f0d6c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O40}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="442" width="50" height="10" uuid="90cd9ba1-5af1-47cf-b7ab-4343f00f67fd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O45}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="238" y="442" width="50" height="10" uuid="e1526001-651a-498b-b209-4f7e04694639">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O43}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="455" width="50" height="10" uuid="08648928-189f-43c0-82de-112f5092b0c0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O46}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="433" y="455" width="50" height="10" uuid="3bbfdf29-da6d-4ef0-b0f8-0c810e973450">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O48}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="238" y="455" width="50" height="10" uuid="9aee7bfa-09fb-4820-84ea-a2c373efbcbd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O44}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="53" y="442" width="76" height="10" uuid="81931673-b4a0-4dd4-b416-a061ac88d8e8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O41}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="433" y="442" width="50" height="10" uuid="241419b0-0f01-4140-9330-ada1b32f31bd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O47}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="53" y="455" width="180" height="10" uuid="48c8b0a9-44c8-48e7-a3ea-686493dd9ad8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O42}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="19" y="470" width="555" height="1" uuid="f10f7217-3e7d-49af-be66-c79ef06def53">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="51" y="474" width="106" height="12" uuid="4231f5f0-0cfb-410a-a95b-e98e819bd6d6">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<text><![CDATA[【特則・特約付加情報】]]></text>
+			</staticText>
+			<line>
+				<reportElement x="19" y="489" width="555" height="1" uuid="e6896014-5f87-4978-80e0-93e35e34cfe8">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="328" y="496" width="92" height="10" uuid="26a79ae4-28a3-4dfd-86c9-fc0a00ab137a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O53}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="496" width="50" height="10" uuid="68297b47-8af1-4e11-82d2-fc82ce513014">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O51}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="53" y="496" width="76" height="10" uuid="d59123ee-1b93-4fa0-a8a0-2213c0d5f9d1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<text><![CDATA[定額年金特則]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="435" y="496" width="60" height="10" uuid="51980bb4-6cbd-4806-8a4f-d3c8f590fdd5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O55}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="510" width="50" height="10" uuid="ce6221c3-c676-4ca2-b446-b7e7683ea88f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O56}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="510" width="50" height="10" uuid="90201362-103d-4110-a944-9acb65aed5d1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O52}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="328" y="510" width="92" height="10" uuid="d16edc3b-9fbc-462a-b68a-5bc256c97838">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O54}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="239" y="530" width="76" height="10" uuid="0df4bbdd-2b17-419f-a6eb-be0911455d99">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O58}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="52" y="530" width="76" height="10" uuid="b0cf3ccb-a1fd-4e74-a466-0576f32e7e22">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O57}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="239" y="543" width="314" height="10" uuid="12b14cab-f5a8-4e40-baf6-4188a7134663">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O59}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="90" y="25" width="76" height="10" uuid="cdd1095b-d8af-4347-a8c1-4336a639476e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="IPAGothic" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{O2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
