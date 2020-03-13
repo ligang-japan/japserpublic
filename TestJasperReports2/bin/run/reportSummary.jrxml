@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.9.0.final using JasperReports Library version 6.9.0-cb8f9004be492ccc537180b49c026951f4220bf3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reportSummary" pageWidth="1191" pageHeight="842" orientation="Landscape" columnWidth="1191" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="27d38e24-48a5-485b-9aa8-05397cf17e10">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="VA Printing"/>
+	<property name="com.jaspersoft.studio.unit." value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="mm"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="134"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="861"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20 FROM V_LIST ORDER BY D8]]>
+	</queryString>
+	<field name="D1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D1"/>
+	</field>
+	<field name="D2" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D2"/>
+	</field>
+	<field name="D3" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D3"/>
+	</field>
+	<field name="D4" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D4"/>
+	</field>
+	<field name="D5" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D5"/>
+	</field>
+	<field name="D6" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D6"/>
+	</field>
+	<field name="D7" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D7"/>
+	</field>
+	<field name="D8" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D8"/>
+	</field>
+	<field name="D9" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D9"/>
+	</field>
+	<field name="D10" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D10"/>
+	</field>
+	<field name="D11" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D11"/>
+	</field>
+	<field name="D12" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D12"/>
+	</field>
+	<field name="D13" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D13"/>
+	</field>
+	<field name="D14" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D14"/>
+	</field>
+	<field name="D15" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D15"/>
+	</field>
+	<field name="D16" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D16"/>
+	</field>
+	<field name="D17" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D17"/>
+	</field>
+	<field name="D18" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D18"/>
+	</field>
+	<field name="D19" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D19"/>
+	</field>
+	<field name="D20" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="D20"/>
+	</field>
+	<group name="Group_Pattern" isStartNewPage="true">
+		<groupExpression><![CDATA[$F{D8}]]></groupExpression>
+		<groupHeader>
+			<band height="58">
+				<staticText>
+					<reportElement mode="Opaque" x="92" y="41" width="37" height="17" backcolor="#F0F0F0" uuid="d2d279ae-d27e-40d0-947a-8d3deae255b1">
+						<property name="com.jaspersoft.studio.unit.y" value="mm"/>
+						<property name="com.jaspersoft.studio.unit.x" value="mm"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[商品]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="781" y="41" width="36" height="17" backcolor="#F0F0F0" uuid="441fefa5-fc50-45c0-9db0-5f75d4e42084"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[NNLink]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="967" y="41" width="42" height="17" backcolor="#F0F0F0" uuid="07f5590d-89ae-4d3a-9da1-a56d6a8a08a8"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[継続年金]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="34" y="41" width="58" height="17" backcolor="#F0F0F0" uuid="8f507ff7-3c53-481b-90bf-7479fa5fff9b"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[証券番号]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="625" y="41" width="42" height="17" backcolor="#F0F0F0" uuid="8e085c30-17d8-4934-a61a-b3be3b2fd2fa"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[完了通知]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="583" y="41" width="42" height="17" backcolor="#F0F0F0" uuid="9db4221f-45d3-4749-9247-1b72a446a2d0"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[年金証書]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="39" y="8" width="79" height="23" uuid="d3a78e7c-3c7d-421f-88c4-64b00455039c"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="IPAGothic"/>
+					</textElement>
+					<text><![CDATA[<受取人順>]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="285" y="41" width="64" height="17" backcolor="#F0F0F0" uuid="d3c5a22d-a7e6-47a3-a903-f587c5722385"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[処理日]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="817" y="41" width="36" height="17" backcolor="#F0F0F0" uuid="85eed744-0070-4764-a7f1-0dfe0eb34626"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[分割NG]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="667" y="41" width="36" height="17" backcolor="#F0F0F0" uuid="96700d51-ecd3-4f79-86d0-5e133347e84d"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[ID/Pass]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="413" y="41" width="170" height="17" backcolor="#F0F0F0" uuid="82c1f04a-6f5d-49cf-b5c1-5159bb961d24"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[種別]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="221" y="41" width="64" height="17" backcolor="#F0F0F0" uuid="ff5cd640-7117-4d81-a23a-722a80af8881"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[受取人]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="703" y="41" width="36" height="17" backcolor="#F0F0F0" uuid="3013926f-d688-41ec-8d78-2fc9d6a97c0a"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[カバー]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="129" y="41" width="92" height="17" backcolor="#F0F0F0" uuid="56f8a004-2502-4f3f-8088-f1e3f1ee2375"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[顧客名]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="931" y="41" width="36" height="17" backcolor="#F0F0F0" uuid="43552862-deb1-4741-8e19-04fa9496696d"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[法人]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="739" y="41" width="42" height="17" backcolor="#F0F0F0" uuid="d77c8f25-016d-4ac5-bfe8-b28f49b2e0d1"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[ユニ取り]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="889" y="41" width="42" height="17" backcolor="#F0F0F0" uuid="d4b55eae-ac57-4067-99ad-91795c3555ac"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[二重課税]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="853" y="41" width="36" height="17" backcolor="#F0F0F0" uuid="2d60cca7-f294-403a-8dd9-9e2f32bb9a64"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[24条]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="113" y="8" width="56" height="23" uuid="9c12b124-51b3-4d9e-97fe-1909cc433a03"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="IPAGothic"/>
+					</textElement>
+					<text><![CDATA[パターン：]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="169" y="8" width="28" height="23" uuid="bf5944f6-b01b-4221-8032-45d2182816f2"/>
+					<box>
+						<pen lineWidth="1.0" lineStyle="Solid"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="IPAGothic"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{D8}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="952" y="11" width="44" height="23" uuid="9e03ee42-2eb4-4b3c-8a84-bb924167c376"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="IPAGothic"/>
+					</textElement>
+					<text><![CDATA[作成日：]]></text>
+				</staticText>
+				<textField pattern="MMMMM dd, yyyy">
+					<reportElement x="998" y="13" width="54" height="18" uuid="7e3c594e-aca4-49e1-aafb-d69b16b2d1ba"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[new SimpleDateFormat("yyyy/MM/dd").format(new java.util.Date())]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement mode="Opaque" x="1009" y="41" width="65" height="17" backcolor="#F0F0F0" uuid="1e386fb6-791b-4882-9d82-d37535ed6ea3"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[処理内容コード]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="349" y="41" width="64" height="17" backcolor="#F0F0F0" uuid="f978d4ca-4c0c-4d33-954a-672656ac6618"/>
+					<box>
+						<pen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="IPAGothic" size="9"/>
+					</textElement>
+					<text><![CDATA[年金開始日]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="2" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="3" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="18">
+			<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+			<textField>
+				<reportElement mode="Opaque" x="34" y="0" width="58" height="17" uuid="aa6ccd04-b2f6-41c0-89cf-d65abb70534e"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="92" y="0" width="37" height="17" uuid="cf5d7136-4ebc-4454-8238-15df0abcb2cf">
+					<property name="com.jaspersoft.studio.unit.y" value="mm"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="129" y="0" width="92" height="17" uuid="e89256e2-60b0-48bf-97ec-778753141f84"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="221" y="0" width="64" height="17" uuid="2acfc4dd-1132-45d1-b44e-49123337e690"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="285" y="0" width="64" height="17" uuid="bbb111b7-9923-4380-ac6b-82f52097fa80"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="413" y="0" width="170" height="17" uuid="4d6a33f5-89d4-4570-a207-fde3e6b78356"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="583" y="0" width="42" height="17" uuid="51decdb5-41ac-472f-8721-5fcc3063e6cf"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="625" y="0" width="42" height="17" uuid="c5023126-873b-4314-a22b-338b2d29a986"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="667" y="0" width="36" height="17" uuid="5c0a6ca0-819b-4904-8cea-54d251b5b6ee"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="703" y="0" width="36" height="17" uuid="8bbb97a7-e72f-4bb7-bac5-fa6f0f6eb800"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="739" y="0" width="42" height="17" uuid="868428fb-232f-4857-9fd0-900eae5e2e68"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D13}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="781" y="0" width="36" height="17" uuid="1e31286b-15c3-497e-8c53-106337eb2f6c"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D14}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="817" y="0" width="36" height="17" uuid="99b4bf88-a2e7-442a-afbe-6690036b39a2"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D15}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="853" y="0" width="36" height="17" uuid="47c5af51-9e20-4d7d-bb21-73ac76893b52"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D16}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="889" y="0" width="42" height="17" uuid="c22787df-298c-4d48-9089-671f4d0c2766"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D17}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="931" y="0" width="36" height="17" uuid="7a96ee6b-9f4b-47e2-9f03-62df710d893e"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D18}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="967" y="0" width="42" height="17" uuid="0f0d741e-eea9-43e3-8d20-b9df7ebc328a"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="1009" y="0" width="65" height="17" uuid="bf8d0e0d-bab8-4155-896b-ed929ea44575"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D20}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="349" y="0" width="64" height="17" uuid="b590d2cb-8b85-4320-b385-edf272b7ae64"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="0.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAGothic"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{D6}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
